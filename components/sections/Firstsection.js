@@ -33,7 +33,7 @@ export default function Firstsection() {
       <Image  
          layout="responsive"
          width={1250}
-         height={535}  src="/cover.jpg" className=" md:w-full md:h-full overflow-hidden" 
+         height={535}  src="/cover.jpg" className="a md:w-full md:h-full overflow-hidden" 
       />
       </div>
     </div>
