@@ -16,7 +16,7 @@ export default function Thirdsection() {
            <div className="w-64 h-64 relative md:w-96 md:h-96 ">
                 <Image
                   alt="Mountains"
-                  src="/4.jpg" 
+                  src="/mark.jpg" 
                   layout="fill"
                   objectFit="contain"
                 />
