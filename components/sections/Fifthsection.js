@@ -4,7 +4,7 @@ import React from "react";
 export default function Fifthsection() {
   return (
     <div
-      className=" overflow-hidden font-black flex flex-col md:flex md:flex-row items-center p-10"
+      className=" overflow-hidden font-black justify-around flex flex-col md:flex md:flex-row items-center p-10"
       style={{
         position: "relative",
         height: "100%",
@@ -13,16 +13,14 @@ export default function Fifthsection() {
         color: "#3F3C65",
       }}
     >
-      <div>
-          <Image 
-                layout="intrinsic"
-                width={700}
-                height={475}
-            className="" 
-            src="/fifthicon.jpg" 
-            alt="" 
-          />
-      </div>
+        <div className="w-96 h-64 relative md:w-96 md:h-96 ">
+                <Image
+                  alt="Mountains"
+                  src="/fifthicon.jpg" 
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
       <div className="md:w-1/2">
         <h1 className="text-2xl md:text-6xl mb-5">
           What is happens <br />
